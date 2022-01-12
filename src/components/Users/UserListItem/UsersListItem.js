@@ -1,6 +1,6 @@
-const UsersListItem = () => {
+const UsersListItem = (props) => {
     return (
-        <div>UsersListItem</div>
+        <div>{props?.user?.username}</div>
     );
 }
 export default UsersListItem;
